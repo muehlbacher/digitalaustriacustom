@@ -48,8 +48,8 @@ class Stuff extends Component {
             transitionEnter={true}
             transitionLeave={false}
             >
-                <div className = "stuff container_12 stuff-1">
-                    <div className ="image-column my-column grid_6">
+                <div className = "stuff stuff-1">
+                    <div className ="image-column my-column">
                         <div className ="image-wrapper">
                             <img src="images/digitalaustria1.jpg" alt="Mann mit Kind auf dem Arm" sizes="(max-width: 1502px) 100vw, 1502px"/>
                         </div>

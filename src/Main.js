@@ -11,7 +11,6 @@ import Stuff2 from './Stuff2';
 import Stuff3 from './Stuff3'
 import Hero from './Hero';
 import './index.css';
-import './960_12_col.css'
 
 import { HashLink as Link } from 'react-router-hash-link';
 import ScrollableAnchor from 'react-scrollable-anchor';
