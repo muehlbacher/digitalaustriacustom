@@ -15,7 +15,7 @@
 @media only screen and (min-width:1224px){
 
   html {
-    font-size: 10px;
+    font-size: 62.5%;
   }
   body {
       font-family: 'Montserrat', sans-serif;
@@ -38,7 +38,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
-    font-size: 1.5em;
+    font-size: 1.6rem;
     z-index: 2;
   }
 
@@ -49,15 +49,15 @@
   }
 
   h5{
-    font-size: 1.5em;
-    letter-spacing: 3px;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
   }
   h4{
-    font-size: 2em;
+    font-size: 1.8rem;
   }
 
   .nav-items {
-    margin-right: 10em;
+    margin-right: 10rem;
   }
 
   h1, h2, p, ul, li {
@@ -101,7 +101,7 @@
 }
 
 .stuff-1 {
-  margin-top:13em;
+  margin-top:13rem;
 }
   .stuff-text {
     
@@ -178,7 +178,7 @@
 
     height: 100%;
     width: 80%;
-    max-width: 57em;
+    max-width: 57rem;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -199,9 +199,9 @@
 
     letter-spacing: 1px;
     -webkit-font-smoothing: antialiased;
-    font-size:1.5em;
+    font-size: 1.6rem;
     font-weight:300;
-    line-height:2em;
+    line-height:2.5rem;
   }
 
   .image-svg{
@@ -224,6 +224,7 @@
     flex: 1 1 auto;
     margin: 10px;
     padding: 10px 10px 10px 10px;
+    font-size:1.3rem;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -253,13 +254,13 @@
   .hero-text {
     color:white;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 4rem;
     padding-left: 10vw;
     padding-right: 10vw;
   }
   .hero-text-small{
     font-weight:normal;
-    font-size:50px;
+    font-size:3.2rem;
   }
 
 }
