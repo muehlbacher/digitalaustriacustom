@@ -55,35 +55,28 @@ class Stuff extends Component {
                         </div>
                     </div>
                     <div className ="stuff-text grid_6">
-                    <div className="text-wrapper">
-                    <ScrollAnimation animateIn="fadeInUp"
-                    animateOnce ={true}>
-                        <img className="image-svg" src="images/users-group.svg" alt="Gesellschaft Menschen und Zeugs"/>
-                       
-
-<h5>GESELLSCHAFT</h5>
-                        
-                        <h4>Mehr Lebensqualität für alle Generationen.</h4>
-                        <span className ="text-content">
-                        Mit Information und Weiterbildung sorgen wir
-                        dafür, dass alle im Land - unabhängig von 
-                        Bildungsgrad, Alter oder Geschlecht - von der 
-                        Digitalisierung profitieren können. Wir machen die 
-                        Bürgerinnen und Bürger fit für neue Technologien, 
-                        um ihre Lebensqualität zu erhöhen.
-                        </span>
-
-                       
-                        <div className="container-1">
-                            <a href="#" className="btn btn-1">Mehr erfahren</a>
-                            </div>
+                        <div className="text-wrapper">
+                            <ScrollAnimation animateIn="fadeInUp"
+                            animateOnce ={true}>
+                                <img className="image-svg" src="images/users-group.svg" alt="Gesellschaft Menschen und Zeugs"/>
+                                <h5>GESELLSCHAFT</h5>
+                                <h4>Mehr Lebensqualität für alle Generationen.</h4>
+                                <span className ="text-content">
+                                Mit Information und Weiterbildung sorgen wir
+                                dafür, dass alle im Land - unabhängig von 
+                                Bildungsgrad, Alter oder Geschlecht - von der 
+                                Digitalisierung profitieren können. Wir machen die 
+                                Bürgerinnen und Bürger fit für neue Technologien, 
+                                um ihre Lebensqualität zu erhöhen.
+                                </span>
+                                <div className="container-1">
+                                    <a href="#" className="btn btn-1">Mehr erfahren</a>
+                                </div>
                             </ScrollAnimation>
-                            </div>
-                    </div>
-
-                    
-                    </div> 
-        </CSSTransitionGroup>
+                        </div>
+                    </div>              
+                </div> 
+            </CSSTransitionGroup>
         );
     }
 }
