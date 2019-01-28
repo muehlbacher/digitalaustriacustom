@@ -70,33 +70,4 @@ class ScrollMain extends Component{
     }
 }
 
-class NotMain extends Component{
-    render(){
-        return(
-            <div>
-                <HashRouter>
-                    <div>
-                    <ul className = "header">
-                <li><Link smooth to="/scroll#homeAnchorTAg">Home</Link></li>
-                <li><Link smooth to="/scroll#yourAnchorTag">Stuff</Link></li>
-                <li><Link smooth to="/scroll#contactAnchorTag">Contact</Link></li>
-                </ul>
-                <Stuff/>
-                <Stuff/>
-                <Stuff/>
-                <Stuff/>
-                <Stuff/>
-                <Stuff/>
-                <Stuff/>
-                <Stuff id="yourAnchorTag"/>
-                <Home id="homeAnchorTag"/>
-                <Contact id="contactAnchorTag"/>
-                </div>
-            </HashRouter>
-            </div>
-            
-        );
-    }
-}
-
 export default Main;
